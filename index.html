@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Comments list on jQuery</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div class="comments__content">
+		<h1 class="comments__title">Комментарии</h1>
+		<div class="comments__none">Новых комментариев нет</div>
+		<div class="comments__list">
+			
+		</div>
+		<div class="comments__form">
+			<h2 class="comments__form__title">Добавить комментарий</h2>
+			<label class="comments__label">
+				<span>Ваше имя*</span>
+				<input type="text" name="name" placeholder="Иванов Иван">
+			</label>
+			<label class="comments__label">
+				<span>Комментарий*</span>
+				<textarea name="message" placeholder="Напишите что-нибудь..."></textarea>
+			</label>
+			<button class="comments__add">Отправить</button>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="common.js"></script>
+</body>
+</html>

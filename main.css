@@ -1,0 +1,175 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	outline: none;
+}
+
+@font-face {
+	font-family: 'Gotham Pro Bold';
+	src: url('fonts/GothamPro-Bold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro Reg';
+	src: url('fonts/GothamPro.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro Medium';
+	src: url('fonts/GothamPro-Medium.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.comments__content {
+	width: 940px;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+
+.comments__title {
+	color: #2c2c2c;
+	font-family: 'Gotham Pro Bold';
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.comments__item {
+	position: relative;
+	background-color: #f8f8f8;
+	width: 100%;
+	min-height: 164px;
+	margin-bottom: 24px;
+	padding: 35px 60px;
+}
+
+.comments__author {
+	color: #2c2c2c;
+	font-family: 'Gotham Pro Bold';
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.comments__text {
+	margin-top: 20px;
+	color: #2c2c2c;
+	font-family: 'Gotham Pro Reg';
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.comments__date {
+	margin-top: 10px;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	color: #b5b3b3;
+	font-family: 'Gotham Pro Reg';
+	font-size: 12px;
+}
+
+.comments__form {
+	margin-top: 60px;
+}
+
+.comments__form__title {
+	color: #2c2c2c;
+	font-family: 'Gotham Pro Bold';
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.comments__label {
+	display: flex;
+	margin-bottom: 24px;
+}
+
+.comments__label span {
+	padding-top: 8px;
+	display: inline-block;
+	color: #2c2c2c;
+	font-family: 'Gotham Pro Medium';
+	font-size: 14px;
+	margin-right: 20px;
+	width: 100px;
+}
+
+.comments__label input {
+	width: 240px;
+	height: 38px;
+	border: 1px solid #e6e6e6;
+	padding-left: 21px;
+	color: #2c2c2c;
+	font-family: 'Gotham Pro Reg';
+	font-size: 12px;
+}
+
+.comments__label input::placeholder {
+	color: rgba(44, 44, 44, 0.3);
+}
+
+.comments__label textarea {
+	width: 460px;
+	height: 120px;
+	border: 1px solid #e6e6e6;
+	padding-left: 21px;
+	padding-top: 21px;
+	color: #2c2c2c;
+	font-family: 'Gotham Pro Reg';
+	font-size: 12px;
+	resize: none;
+}
+
+.comments__label textarea::placeholder {
+	color: rgba(44, 44, 44, 0.3);
+}
+
+.comments__form button {
+	width: 240px;
+	height: 38px;
+	background-color: #535bfe;
+	border: none;
+	margin-left: 120px;
+	color: #ffffff;
+	font-family: 'Gotham Pro Bold';
+	font-size: 14px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.comments__delete {
+	width: 20px;
+	height: 20px;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB/pwA+AAAAAXNSR0IB2cksfwAAABJQTFRFAAAA3Rwt3Rwt1Ssr3hst3hss/uEX/wAAAAZ0Uk5TAFuvBv+yhqujeAAAAE9JREFUeJxjEDJgAANmRQaVYAjT1InB1BUszBwSDMYgQZAImIAIgEmoMiAFVQUShgqChKGCIGGYIDIToQBJG8IwJCsQFiM5B8mRSE5HeAgAonIWc6UfJYIAAAAASUVORK5CYII=');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	right: 20px;
+	top: 12px;
+	cursor: pointer;
+}
+
+.comments__none {
+	width: 100%;
+	color: rgba(44, 44, 44, 0.3);
+	font-family: 'Gotham Pro Reg';
+	font-size: 16px;
+	text-align: center;
+}
+
+.error {
+	border: 1px solid red !important;
+}
